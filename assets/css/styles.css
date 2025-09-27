@@ -1,5 +1,40 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+body {
+	background-color: #232c36;
+	padding: 0 30px 30px 30px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+	border-bottom: 2px solid #994b0b;
+    border-left: 2px solid #994b0b;
+    padding: 10px 10px;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	background-color: #28333d;
+	padding: 8px 8px;
+	border-bottom: 2px solid #994b0b;
+}
+
+p {
+	color: #ffea94;
+	font-family: "Lora", serif;
+	font-size: 1em;
+}
+
+li, a {
+	color: #e07295;
+	font-family: "Lora", serif;
+	font-size: 1em;
 }
