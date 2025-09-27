@@ -1,0 +1,55 @@
+body {
+    padding: 40px 40px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-image: url("images/grey.jpg");
+}
+
+
+h1 {
+	font-family: "Mea Culpa", cursive;ß
+	font-size: 70px;
+	text-align: center;
+	color: #421903;
+}
+
+h2 {
+	font-family: "Mea Culpa", cursive;ß
+	font-size: 70px;
+	text-align: center;
+	color: #421903;
+}
+
+h3 {
+	font-family: "Italianno", cursive;
+	font-size: 30px;
+	color: #702e0a;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 15px;
+}
+
+.rform {
+	text-align: center;
+	color: #572104;
+	font-size: 30px;
+	padding: 40px 40px;
+}
+
+.remy {
+	color: #9e4c33;
+}
+
+.iroh {
+	color: #2c693e;
+}
+
+.crush {
+	color: #297699;
+}
+
+li {
+	color: #572104;
+}

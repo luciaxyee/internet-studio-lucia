@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>dinner invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&family=Mea+Culpa&display=swap" rel="stylesheet">
+  	<link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<h1 class="title">Your Invited to Dinner with</h1>
+  	  <h3 class="remy">Remy from Paris</h3>
+  	    <img src="images/remy.jpg" alt="Remy from Ratatouille">
+  	    <p class="remy">Remy is a five-star cook who knows his spices and falvor profiles. He's from Paris and loves to cook. Remy would be great to have over because if the dishes every taste a little off, he can help correct them. He's also an amazing cook to learn from, which is great for the individual who doesn't know much about cooking. Remy is also polite and has great table etiquite.</p>
+  	  <h3 class="iroh">Uncle Iroh from the Fire Nation</h3>
+  	    <img src="images/Iroh.jpg" alt="Iroh from Avatar">
+  	    <p class="iroh">Uncle Iroh has many tales to tell, both from his past and his opinions on the occuring events. He's from the Fire Nation, and despite experiencing many hardships, he remains a gentle soul. He offers brilliant political perspective and sees from both parties. He would be great to have for dinner because he could offer interesting table conversations and different perspectives.</p>
+  	  <h3 class="crush">Crush from the Pacific Ocean</h3>
+  	    <img src="images/crush.jpg" alt="Crush from Finding Nemo">
+        <p class="crush">Crush is from the Pacific Ocean, he's a turtle that has a gentle and calming spirit. He's a father of 65 and holds the age of 150 years. Crush is invited for dinner because of his charasmatic input and fun perspective on life. He would be cool to have over because he offers a differet world of perspectives having come from the ocean, but he can also relate to the ones who parent.</p>
+      <h2 class="title">Menu</h2>
+        <h3>Appetizers</h3>
+      	  <ul>
+      	  	<li>Deviled Cucumbers</li>
+      	  	<li>Crab Cakes</li>
+      	  	<li>Salmon Croquettes</li>
+      	  	<li>Brazilian Cheese Bread</li>
+      	  	<li>Garlic Bread</li>
+      	  </ul>
+      	<h3>Main Course</h3>
+      	  <ul>
+      	  	<li>Seared Scallops with Brown Butter and Lemon</li>
+      	  	<li>Steamed Fish with Ginger and Scallions</li>
+      	  	<li>Creamy Pesto Risotto with Roasted Pinenuts</li>
+      	  	<li>Spicy Lobster Pasta with Lemon</li>
+      	  	<li>Beef and Soft Tofu Soup with Side Dishes</li>
+      	  </ul>
+      	<h3>Desserts</h3>
+      	  <ul>
+      	  	<li>Passion Fruit Ice Cream</li>
+      	  	<li>Tuxedo Cake Slice</li>
+      	  	<li>French Apple Tart Slice</li>
+      	  	<li>Tiramisu</li>
+      	  	<li>Spanish Flan</li>
+      	  </ul>
+    <form action="submission.html" method="POST" class="rform">
+      <h2>Rsvp</h2>
+        <section class="name">
+        	<label for="name">Name</label>
+        	<input type="text" name="name" id="name">
+        </section>
+        <section class="rsvp">
+          <span>Will you be attending dinner?</span>
+          <br>
+          <input type="radio" id="yes" name="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">No</label>
+        </section>
+        <section class="diet">
+        	<label for="diet">Do you have any dietary preferances?</label>
+        	<br>
+        	<textarea id="diet" name="diet" rows="3" cols="40"></textarea>
+        </section>
+        <section class="submit">
+        	<input type="submit" name="submit" value="submit">
+        </section>
+    </form>
+  </body>
+</html>
