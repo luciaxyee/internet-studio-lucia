@@ -1,0 +1,65 @@
+body {
+	background-image: url("images/cork-wallet.png");
+	padding: 0 30px 30px 30px;
+	margin: 0 auto;
+	max-width: 950px;
+}
+
+p {
+	font-size: 1.3em;
+	font-family: "Roboto Slab", serif;
+	color: #357266;
+    line-height: 150%;
+}
+/* I made the color slightly lighter than the headers to make it less bold than the headers */
+
+h1 {
+	font-size: 2.3em;
+	color: #312509;
+	font-family: "BBH Sans Bogle", sans-serif;
+}
+/* I made the header this font because it's bold and is sans-serif */
+
+h2 {
+	font-size: 1.7em;
+	color: #0e3b43;
+	font-family: "BBH Sans Bogle", sans-serif;
+}
+/* I made the header color darker than the paragraph color so that it would stand out more */
+
+h3 {
+	font-size: 2.1em;
+	color: #312509;
+	font-family: "BBH Sans Bogle", sans-serif;
+}
+/* I made this header slightly smaller than the other one because it comes after the first header*/
+
+.sp {
+	color: #65532f;
+}
+
+/* The summary paragraph is brown to distingish the definitions from the reflection */
+
+img {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
