@@ -1,0 +1,137 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* afacad-flux-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/afacad-flux-v4-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+    background-image: url("images/dark-honeycomb.png");
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(46, 84, 115, .7);
+    padding: 20px;
+}
+
+a {
+    color: #e3504b;
+    font-family: "Afacad flux";
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+p {
+    font-family: "Afacad flux";
+    color: #b2c8db;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1, h2 {
+    font-family: "Adamina";
+    color: #ffffff;
+}
+
+h2 {
+    color: #e6f0f7;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  margin: 10px;
+  background-color: rgb(67, 107, 140);
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
+}
+
+aside h2 {
+    color: #ffffff;
+}
+
+aside p {
+    color: #e6f0f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
