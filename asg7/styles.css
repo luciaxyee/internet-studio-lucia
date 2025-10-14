@@ -48,10 +48,12 @@
   font-weight: 400;
   src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/*font information*/
 
 html {
     background-image: url("images/dark-honeycomb.png");
 }
+/*background image*/
 
 body {
     max-width: 800px;
@@ -59,6 +61,7 @@ body {
     background-color: rgb(46, 84, 115, .7);
     padding: 20px;
 }
+/*dark cornflower blue background with padding*/
 
 a {
     color: #e3504b;
@@ -66,6 +69,7 @@ a {
     font-size: 1.2em;
     line-height: 150%;
 }
+/*chesive and red link*/
 
 p {
     font-family: "Afacad flux";
@@ -73,20 +77,24 @@ p {
     font-size: 1.2em;
     line-height: 150%;
 }
+/*light blue, add spacing*/
 
 h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+/*uppercase, change letter spacing*/
 
 h1, h2 {
     font-family: "Adamina";
     color: #ffffff;
 }
+/*change font style and color to white*/
 
 h2 {
     color: #e6f0f7;
 }
+/*color to very light blue*/
 
 aside {
   width: 30%;
@@ -97,15 +105,17 @@ aside {
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
 }
+/*add side bar to the right, rounded light blue, with shadow*/
 
 aside h2 {
     color: #ffffff;
 }
+/*color to white*/
 
 aside p {
     color: #e6f0f7;
 }
-
+/*color to very light blue*/
 
 
 
