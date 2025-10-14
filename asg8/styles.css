@@ -1,0 +1,120 @@
+/* asar-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Asar';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/asar-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* figtree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/figtree-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+html {
+	background-image: url(images/round.webp);
+}
+
+body {
+	background-color: rgb(20, 20, 46, .75);
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 40px;
+}
+
+h1 {
+	color: #fae5c3;
+	background-color: #4f3409;
+	margin: 0 -40px 10px -40px;
+	text-align: center;
+	padding: 20px;
+	font-size: 2.44em;
+}
+
+h2 {
+	color: #dec59e;
+	border-bottom: solid 1px;
+	padding: 2px;
+	font-size: 1.95em;
+}
+
+h3 {
+	color: #b8d2db;
+	font-size: 1.56em;
+}
+
+h1, h2, h3 {
+	font-family: "Figtree";
+}
+
+p {
+	font-family: "Asar";
+	line-height: 150%;
+	letter-spacing: .2px;
+	color: #d8d3e6;
+	font-size: 1.25em;
+}
+
+.domain {
+	background-color: rgb(30, 30, 54, .8);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
