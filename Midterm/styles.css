@@ -81,6 +81,8 @@ nav ul {
 nav ul li {
     list-style: none;
 	background-color: #f5d393;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 
@@ -98,8 +100,6 @@ nav a {
     color: #fff;
     font-family: "vend sans", "Arial Black", sans-serif;
     justify-content: center;
-	padding: 10px;
-	border-radius: 5px;
 }
 
 nav a {
