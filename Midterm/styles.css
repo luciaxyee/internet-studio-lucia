@@ -103,10 +103,10 @@ a {
 }
 
 nav a {
-	transition: transform .5s, background-color 1s ease-in .5s;
+	transition: transform .5s, background-color .8s ease-in .5s;
 }
 
-nav a:hover {
+nav ul li a:hover {
 	background-color: #faaf23;
 }
 
