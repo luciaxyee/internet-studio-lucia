@@ -81,6 +81,9 @@ nav ul {
 nav ul li {
     list-style: none;
     background-color: #f5d393;
+	border-radius: 5px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 
 
