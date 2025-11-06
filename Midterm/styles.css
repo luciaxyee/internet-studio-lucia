@@ -80,12 +80,9 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    background-color: #f5d393;
-    justify-content: center;
+	background-color: #f5d393;
 	padding: 10px;
 	border-radius: 5px;
-    padding-top: 20px;
-    margin-bottom: 0;
 }
 
 
@@ -98,44 +95,21 @@ p, li {
 }
 
 
-nav a {
+a {
     text-decoration: none;
     color: #fff;
     font-family: "vend sans", "Arial Black", sans-serif;
     justify-content: center;
-	padding: 10px;
-	border-radius: 5px;
-    padding-top: 20px;
-    margin-bottom: 0;
 }
 
-nav a {
-	transition: transform .5s, background-color .8s ease-in .5s;
+nav ul li {
+    /* transition: all .5s; */
+    transition: transform .5s, background-color 1s ease-in .5s;
 }
-
-nav a:hover {
-	background-color: #faaf23;
+ 
+nav ul li:hover {
+    background-color: #faaf23;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
