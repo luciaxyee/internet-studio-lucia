@@ -81,6 +81,7 @@ nav ul {
 nav ul li {
     list-style: none;
     background-color: #f5d393;
+    justify-content: center;
 	padding: 10px;
 	border-radius: 5px;
     padding-top: 20px;
