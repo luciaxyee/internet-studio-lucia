@@ -1,0 +1,130 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Borel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/borel-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* vend-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Vend Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/vend-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+    background-image: url(images/cloudy.webp);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 40px;
+}
+
+
+h1 {
+    color: #ffac1c;
+    font-family: Borel, cursive;
+    font-size: 4em;
+    padding-top: 20px;
+}
+
+
+h2 {
+    color: #ffac1c;
+    font-family: Borel, cursive;
+    font-size: 2.5em;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 50px;
+}
+
+
+nav ul li {
+    list-style: none;
+	background-color: #f5d393;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+p, li {
+    color: #fc86a7;
+    font-family: "vend sans", "Arial Black", sans-serif;
+    font-size: 1.3em;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "vend sans", "Arial Black", sans-serif;
+    justify-content: center;
+}
+
+nav ul li {
+    /* transition: all .5s; */
+    transition: transform .5s, background-color 1s ease-in .5s;
+}
+ 
+nav ul li:hover {
+    background-color: #f56f36;
+}
+
+ol li a {
+    color: #fc86a7;
+}
+
+ol li a:hover {
+    color: #e0420d;
+}
+
+footer {
+    background-color: #f5f3ed;
+    padding: 40px;
+    margin: 10px -40px -40px -40px;
+}
+
+.button input[type="button"] {
+    background-color: #f7e4ec;
+    color: #d62971;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em;
+    font-family: "vend sans", "Arial Black", sans-serif;
+    border-radius: 10px;
+}
+
+.button input[type="button"]:hover {
+    background-color: #f5e0c9;
+}
+
+.button input[type="button"]:active {
+    background-color: #f5ecb8;
+}
+
+.image {
+  align-content: center;
+  margin: 10px;
+  width: 950px;
+  border-radius: 8px;
+}
