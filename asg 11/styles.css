@@ -1,0 +1,79 @@
+/* alumni-sans-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alumni Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alumni-sans-sc-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* amethysta-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amethysta';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/amethysta-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  background-image: url(images/hip.webp);
+}
+
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px;
+  content: center;
+}
+
+.intro {
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: "Alumni Sans SC", "Arial Black", sans-serif;
+  font-size: 4em;
+  color: #A32900;
+  border-bottom: 4px solid #A32900;
+}
+
+figcaption {
+  font-family: "Amethysta", times, serif;
+  font-size: 1.5em;
+}
+
+.stat {
+  text-transform: uppercase;
+  color: #A32900;
+  font-size: .8em;
+}
+
+p {
+  font-family: "Amethysta", times, serif;
+  flex-flow: row wrap;
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.image {
+  background-color: rgb(235, 213, 157, .65);
+  max-width: 300px;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.image figcaption {
+  color: #FF7C4F;
+  margin-top: 10px;
+  border-top: 2px solid #FF7C4F;
+  flex: 1 1 1;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+}
