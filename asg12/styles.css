@@ -1,0 +1,146 @@
+/* arapey-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arapey-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* arsenal-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arsenal SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arsenal-sc-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+	background-image: url(images/mini.webp);
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1 {
+	color: #26484F;
+	margin: 0 auto;
+	font-family: "arsenal SC", "Arial Black", sans-serif;
+	font-size: 2em;
+	padding-left: 15px;
+}
+
+.title {
+	text-align: center;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 150%;
+	font-family: "arapey", times, serif;
+	margin: 3px;
+}
+
+div {
+	color: #3C666E;
+}
+
+img {
+	max-width: 150px;
+	border-radius: 10px;
+	margin: 15px;
+	float: left;
+}
+
+.nemo {
+	max-width: 433px;
+}
+
+.robot {
+	max-width: 375px;
+}
+
+.gallery {
+  display: grid;
+  width: 1500px;
+  height: 1200px;
+  border: 4px #fff dotted;
+  grid-template: repeat(4, 1fr 2fr) / repeat(5, 3fr 2fr);
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: rgb(186, 212, 217, .5);
+  border-radius: 5px;
+  border: 4px #DAE8EB solid;
+}
+
+.a {
+	grid-area: 1 / 3 / span 4 / span 3;
+}
+
+.b {
+	grid-area: 3 / 6 / span 4 / span 3;
+}
+
+.c {
+	grid-area: 1 / 1 / span 3 / span 2;
+}
+
+.d {
+	grid-area: 1 / 6 / span 2 / span 3;
+}
+
+.e {
+	grid-area: 4 / 1 / span 3 / span 2;
+}
+
+.f {
+	grid-area: 7 / 1 / span 3 / span 3;
+}
+
+.g {
+	grid-area: 5 / 3 / span 2 / span 3;
+}
+
+.h {
+	grid-area: 1 / 9 / span 3 / span 2;
+}
+
+.i {
+	grid-area: 4 / 9 / span 3 / span 2;
+}
+
+.j {
+	grid-area: 7 / 4 / span 2 / span 3;
+}
+
+.k {
+	grid-area: 7 / 7 / span 2 / span 2;
+}
+
+.l {
+	grid-area: 7 / 9 / span 2 / span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
